@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Black &amp; White</title>
+
+    <!-- meta -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- css -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+    <link rel="stylesheet" href="css/pace.css">
+    <link rel="stylesheet" href="css/custom.css">
+
+    <!-- js -->
+    <script src="js/jquery-2.1.3.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/pace.min.js"></script>
+    <script src="js/modernizr.custom.js"></script>
+</head>
+
+<body id="single">
+<div class="container">
+    <header id="site-header">
+        <div class="row">
+            <div class="col-md-4 col-sm-5 col-xs-8">
+                <div class="logo">
+                    <h1><a href="index.html"><b>Black</b> &amp; White</a></h1>
+                </div>
+            </div><!-- col-md-4 -->
+            <div class="col-md-8 col-sm-7 col-xs-4">
+                <nav class="main-nav" role="navigation">
+                    <div class="navbar-header">
+                        <button type="button" id="trigger-overlay" class="navbar-toggle">
+                            <span class="ion-navicon"></span>
+                        </button>
+                    </div>
+
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <ul class="nav navbar-nav navbar-right">
+                            <li class="cl-effect-11"><a href="index.html" data-hover="首页">首页</a></li>
+                            <li class="cl-effect-11"><a href="full-width.html" data-hover="博客">博客</a></li>
+                            <li class="cl-effect-11"><a href="about.html" data-hover="关于">关于</a></li>
+                            <li class="cl-effect-11"><a href="contact.html" data-hover="联系">联系</a></li>
+                        </ul>
+                    </div><!-- /.navbar-collapse -->
+                </nav>
+                <div id="header-search-box">
+                    <a id="search-menu" href="#"><span id="search-icon" class="ion-ios-search-strong"></span></a>
+                    <div id="search-form" class="search-form">
+                        <form role="search" method="get" id="searchform" action="#">
+                            <input type="search" placeholder="搜索" required>
+                            <button type="submit"><span class="ion-ios-search-strong"></span></button>
+                        </form>
+                    </div>
+                </div>
+            </div><!-- col-md-8 -->
+        </div>
+    </header>
+</div>
+
+<div class="content-body">
+    <div class="container">
+        <div class="row">
+            <main class="col-md-8">
+                <article class="post post-1">
+                    <header class="entry-header">
+                        <h1 class="entry-title">Django 博客开发入门教程：前言</h1>
+                        <div class="entry-meta">
+                            <span class="post-category"><a href="#">Django 博客教程</a></span>
+                            <span class="post-date"><a href="#"><time class="entry-date"
+                                                                      datetime="2012-11-09T23:15:57+00:00">2017年5月11日</time></a></span>
+                            <span class="post-author"><a href="#">追梦人物</a></span>
+                            <span class="comments-link"><a href="#">4 评论</a></span>
+                            <span class="views-count"><a href="#">588 阅读</a></span>
+                        </div>
+                    </header>
+                    <div class="entry-content clearfix">
+                        <p>Django 是使用 Python 编写的一个开源 Web 框架，可以用来快速搭建一个高性能的网站。</p>
+                        <blockquote><p>Django makes it easier to build better Web apps more quickly and with less
+                            code.</p>
+                            <p>Django 让你以更快的速度、更少的代码、更轻松的方式搭建更好的 Web 应用。</p>
+                        </blockquote>
+                        <p>本教程将带你使用 Django 快速开发属于自己的 Blog 网站。</p>
+                        <h2>教程特点</h2>
+                        <p>免费、中文、零基础，完整的项目，基于最新版 Django 1.10 和 Python 3.5。</p>
+                        <p>带你从零开始一步步开发属于自己的博客网站，帮助你以最快的速度掌握 Django 开发的技巧。</p>
+                        <h2>谁适合这个教程</h2>
+                        <p><strong>本教程主要面向零基础的 Django 新人。</strong></p>
+                        <p>只需要一点点 Python 语言的基础，就可以顺利阅读本教程。</p>
+                        <p>如果你已有一定的 Django 开发经验，也能从本教程中学到更多的 Django 开发技巧。</p>
+                        <h2>在线预览</h2>
+                        <p>点击预览：<a href=''>Django Blog Demo</a></p>
+                        <p><img src='' alt=''/></p>
+                        <h2>资源列表</h2>
+                        <p>项目完整代码托管在 GitHub：<a href=''>Django Blog Tutorial</a></p>
+                        <p>博客前端模板托管在 GitHub：<a href=''>博客模板</a></p>
+                        <h2>获取帮助</h2>
+                        <p>在项目开发中遇到问题，即时获取帮助。</p>
+                        <p>Django 学习小组 QQ 群，扫描下方二维码加入。</p>
+                        <p><img src='' alt=''/></p>
+                        <p>或者你也可以将问题的详细描述通过邮件发送至 <a href='mailto:djangostudyteam@163.com' target='_blank'>djangostudyteam@163.com</a>，一般会在
+                            24 小时内答复。</p>
+                    </div>
+                </article>
+                <section class="comment-area">
+                    <hr>
+                    <h3>发表评论</h3>
+                    <form action="#" method="post" class="comment-form">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <label for="id_name">名字：</label>
+                                <input type="text" id="id_name" name="name" required>
+                            </div>
+                            <div class="col-md-4">
+                                <label for="id_email">邮箱：</label>
+                                <input type="email" id="id_email" name="email" required>
+                            </div>
+                            <div class="col-md-4">
+                                <label for="id_url">网址：</label>
+                                <input type="text" id="id_url" name="url">
+                            </div>
+                            <div class="col-md-12">
+                                <label for="id_comment">评论：</label>
+                                <textarea name="comment" id="id_comment" required></textarea>
+                                <button type="submit" class="comment-btn">发表</button>
+                            </div>
+                        </div>    <!-- row -->
+                    </form>
+                    <div class="comment-list-panel">
+                        <h3>评论列表，共 <span>4</span> 条评论</h3>
+                        <ul class="comment-list list-unstyled">
+                            <li class="comment-item">
+                                <span class="nickname">追梦人物</span>
+                                <time class="submit-date">2017年3月12日 14:56</time>
+                                <div class="text">
+                                    文章观点又有道理又符合人性，这才是真正为了表达观点而写，不是为了迎合某某知名人士粉丝而写。我觉得如果琼瑶是前妻，生了三孩子后被一不知名的女人挖了墙角，我不信谁会说那个女人是追求真爱，说同情琼瑶骂小三的女人都是弱者。
+                                </div>
+                            </li>
+                            <li class="comment-item">
+                                <span class="nickname">zmrenwu</span>
+                                <time class="submit-date">2017年3月11日 23:56</time>
+                                <div class="text">
+                                    本能有可能会冲破格局，但格局有时候也会拘住本能。
+                                </div>
+                            </li>
+                            <li class="comment-item">
+                                <span class="nickname">蝙蝠侠</span>
+                                <time class="submit-date">2017年3月9日 8:56</time>
+                                <div class="text">
+                                    其实真理一般是属于沉默的大多数的。那些偏激的观点只能吸引那些同样偏激的人。前几年琼瑶告于妈抄袭，大家都表示大快人心，说明吃瓜观众都只是就事论事，并不是对琼瑶有偏见。
+                                </div>
+                            </li>
+                            <li class="comment-item">
+                                <span class="nickname">长江七号</span>
+                                <time class="submit-date">2017年2月12日 12:56</time>
+                                <div class="text">
+                                    观点我很喜欢！就是哎嘛本来一清二楚的，来个小三小四乱七八糟一团乱麻夹缠不清，简直麻烦要死
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+            </main>
+            <aside class="col-md-4">
+                <div class="widget widget-content">
+                    <h3 class="widget-title">文章目录</h3>
+                    <ul>
+                        <li>
+                            <a href="#">教程特点</a>
+                        </li>
+                        <li>
+                            <a href="#">谁适合这个教程</a>
+                        </li>
+                        <li>
+                            <a href="#">在线预览</a>
+                        </li>
+                        <li>
+                            <a href="#">资源列表</a>
+                        </li>
+                        <li>
+                            <a href="#">获取帮助</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="widget widget-recent-posts">
+                    <h3 class="widget-title">最新文章</h3>
+                    <ul>
+                        <li>
+                            <a href="#">Django 博客开发入门教程：前言</a>
+                        </li>
+                        <li>
+                            <a href="#">Django 博客使用 Markdown 自动生成文章目录</a>
+                        </li>
+                        <li>
+                            <a href="#">部署 Django 博客</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="widget widget-archives">
+                    <h3 class="widget-title">归档</h3>
+                    <ul>
+                        <li>
+                            <a href="#">2017 年 5 月</a>
+                        </li>
+                        <li>
+                            <a href="#">2017 年 4 月</a>
+                        </li>
+                        <li>
+                            <a href="#">2017 年 3 月</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="widget widget-category">
+                    <h3 class="widget-title">分类</h3>
+                    <ul>
+                        <li>
+                            <a href="#">Django 博客教程 <span class="post-count">(13)</span></a>
+                        </li>
+                        <li>
+                            <a href="#">Python 教程 <span class="post-count">(11)</span></a>
+                        </li>
+                        <li>
+                            <a href="#">Django 用户认证 <span class="post-count">(8)</span></a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="widget widget-tag-cloud">
+                    <h3 class="widget-title">标签云</h3>
+                    <ul>
+                        <li>
+                            <a href="#">Django</a>
+                        </li>
+                        <li>
+                            <a href="#">Python</a>
+                        </li>
+                        <li>
+                            <a href="#">Java</a>
+                        </li>
+                        <li>
+                            <a href="#">笔记</a>
+                        </li>
+                        <li>
+                            <a href="#">文档</a>
+                        </li>
+                        <li>
+                            <a href="#">AngularJS</a>
+                        </li>
+                        <li>
+                            <a href="#">CSS</a>
+                        </li>
+                        <li>
+                            <a href="#">JavaScript</a>
+                        </li>
+                        <li>
+                            <a href="#">Snippet</a>
+                        </li>
+                        <li>
+                            <a href="#">jQuery</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="rss">
+                    <a href=""><span class="ion-social-rss-outline"></span> RSS 订阅</a>
+                </div>
+            </aside>
+        </div>
+    </div>
+</div>
+<footer id="site-footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <p class="copyright">&copy 2017 - Collect from <a href="http://www.cssmoban.com/"
+                                                                  target="_blank" title="模板之家">模板之家</a>
+                    - Modified by <a href="http://zmrenwu.com/" title="网页模板" target="_blank">追梦人物的博客</a>
+                </p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- Mobile Menu -->
+<div class="overlay overlay-hugeinc">
+    <button type="button" class="overlay-close"><span class="ion-ios-close-empty"></span></button>
+    <nav>
+        <ul>
+            <li><a href="index.html">首页</a></li>
+            <li><a href="full-width.html">博客</a></li>
+            <li><a href="about.html">关于</a></li>
+            <li><a href="contact.html">联系</a></li>
+        </ul>
+    </nav>
+</div>
+
+<script src="js/script.js"></script>
+
+</body>
+</html>
